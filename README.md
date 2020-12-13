@@ -20,17 +20,17 @@ Source: https://www.youtube.com/watch?v=0oXYLzuucwE&list=PL55RiY5tL51q4D-B63KBny
 
 # What does this repo consist?
 
-API
-  /products
-    GET POST(p)
-  /products/{id}
-    GET PATCH(p) DELETE(p)
-  /orders
-    GET(p) POST(p) 
-  /orders/{id}
-    GET(p) DELETE(p)
-  
-  (p) -> protected
+API <br/>
+  /products <br/>
+    GET POST(p) <br/>
+  /products/{id} <br/>
+    GET PATCH(p) DELETE(p) <br/>
+  /orders <br/>
+    GET(p) POST(p) <br/>
+  /orders/{id} <br/>
+    GET(p) DELETE(p) <br/>
+  <br/>
+  (p) -> protected<br/>
 
 
 
