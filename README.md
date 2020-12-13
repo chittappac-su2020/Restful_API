@@ -18,6 +18,20 @@ Source: https://www.youtube.com/watch?v=0oXYLzuucwE&list=PL55RiY5tL51q4D-B63KBny
 - Uniform Interface (Resources are identified in Requests, transferred data is decoupled from db schema)
 - Code on Demand (Executable Code could be transferred) (Optional)
 
+# What does this repo consist?
+
+API
+  /products
+    GET POST(p)
+  /products/{id}
+    GET PATCH(p) DELETE(p)
+  /orders
+    GET(p) POST(p) 
+  /orders/{id}
+    GET(p) DELETE(p)
+  
+  (p) -> protected
+
 
 
 
