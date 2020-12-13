@@ -1,0 +1,27 @@
+{
+  "name": "restful_api",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chittappac-su2020/Restful_API.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Chandrakanth Chittappa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chittappac-su2020/Restful_API/issues"
+  },
+  "homepage": "https://github.com/chittappac-su2020/Restful_API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
