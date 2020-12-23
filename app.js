@@ -11,7 +11,8 @@ const orderRoutes = require('./api/routes/orders');
 
 mongoose.connect('mongodb+srv://dbNodeRest:'+process.env.MONGO_ATLAS_PW+'@node-rest-shop.5mip0.mongodb.net/dbNodeRest?retryWrites=true&w=majority');
 
-// parse application/x-www-form-urlencoded
+mongoose.Promise = global.Promise;
+
 app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
